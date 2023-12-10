@@ -24,10 +24,15 @@ export const Header = () => {
                   <a> About us</a>
                 </Link>
               </li>
+              <li>
+                <Link href="/contact-us" passHref>
+                  <a>Contact us</a>
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>
-        <p className="title"> Sed ut perspiciatis unde omnis</p>
+        <p className="title"> 568<sup>th</sup> Engineer co. (cse)</p>
       </div>
     </header>
   );
